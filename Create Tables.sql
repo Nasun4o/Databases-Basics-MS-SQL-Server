@@ -1,0 +1,11 @@
+CREATE TABLE Minions 
+(
+Id INT NOT NULL IDENTITY(1,1) PRIMARY KEY , 
+Name varchar(50),
+Age INT
+)
+CREATE TABLE Towns
+(
+Id INT NOT NULL PRIMARY KEY,
+Name varchar(50)
+)
